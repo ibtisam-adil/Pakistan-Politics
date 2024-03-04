@@ -77,15 +77,16 @@ header {
 }
 
 .main-content h1 {
-  background: linear-gradient(
-    to right,
-    #f75312,
-    #e42001,
-    #a00,
-    #f91504,
-    #fd1f0a,
-    #770502
-  );
+  background:
+    linear-gradient(
+      to right,
+      #f75312,
+      #e42001,
+      #a00,
+      #f91504,
+      #fd1f0a,
+      #770502
+    );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 7rem;
@@ -203,7 +204,6 @@ header {
 
 .all-leaders {
   display: grid;
-  /* grid-template-columns: repeat(2, 1fr); */
   grid-column-gap: 10rem;
   grid-row-gap: 35px;
   padding: 0 8% 4%;

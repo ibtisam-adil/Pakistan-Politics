@@ -1,8 +1,279 @@
-
-h1 {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "lato", sans-serif;
 }
 
-h2 {
-  color: aliceblue;
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+/* NAV SECTION */
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.top-nav {
+  background-color: #3e3e3e;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  padding: 8px 12%;
+  font-size: 1.5rem;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10%;
+  box-shadow: 0 5px 5px 0 rgb(189, 184, 184);
+  background-color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  font-size: 1.5rem;
+}
+
+.main-nav img {
+  width: 46px;
+  height: 40px;
+}
+
+/* HERO SECTION */
+.hero {
+  background-image: url(./images/img/background.png);
+  width: 100%;
+  padding: 160px 30px 80px 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.h-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-content p {
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+  color: orange;
+}
+
+.main-content h1 {
+  background: linear-gradient(
+    to right,
+    #f75312,
+    #e42001,
+    #a00,
+    #f91504,
+    #fd1f0a,
+    #770502
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 7rem;
+}
+
+.content-detail {
+  border: #f8f8f8;
+  background-color: #f9f9f9;
+  font-size: 1.5rem;
+  margin: 4% 0 2% 0;
+  max-width: 60%;
+  padding: 15px;
+}
+
+.date {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #595959;
+  padding: 15px;
+}
+
+.address {
+  color: #615f5f;
+  font-size: 2rem;
+}
+
+/* TIME PERIODS */
+
+.time-period {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #272a31;
+  background-image: url(./images/img/main-pattern.png);
+  padding: 40px;
+  align-items: center;
+  padding-bottom: 6%;
+}
+
+.main-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  color: white;
+  padding: 12px 20px 24px;
+}
+
+.main-heading p {
+  padding-bottom: 8px;
+}
+
+.line {
+  border: 2px solid #a04038;
+  width: 35px;
+}
+
+.all-boxes {
+  display: grid;
+  grid-gap: 5px;
+  padding: 50px 12% 40px;
+  margin: 5px;
+}
+
+.box {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: #31343b;
+  padding: 5px 10px;
+}
+
+.all-boxes img {
+  height: 50px;
+}
+
+.date-col {
+  color: #d1413b;
+  font-size: 2rem;
+  font-weight: 900;
+  padding: 25px 0;
+}
+
+.desc-style {
+  color: white;
+  font-size: 1.3rem;
+  line-height: 20px;
+}
+
+.detail-link {
+  font-size: 2rem;
+  color: white;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+/* RULER'S SECTION */
+.pak-rulers {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 20px;
+  gap: 25px;
+}
+
+.r-heading {
+  color: black;
+  padding: 28px 20px 28px;
+}
+
+.r-heading p {
+  padding-bottom: 8px;
+  font-weight: bold;
+}
+
+.all-leaders {
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-column-gap: 10rem;
+  grid-row-gap: 35px;
+  padding: 0 8% 4%;
+}
+
+.leader {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.leader img {
+  width: 154px;
+  height: 164px;
+  padding: 10px 0 0 10px;
+}
+
+.leader-name {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0 0 5px 10px;
+}
+
+.person {
+  width: 70%;
+  padding: 10px;
+}
+
+.party {
+  color: #f98280;
+  padding: 0 0 5px 10px;
+  font-size: 1.5rem;
+}
+
+.party-desc {
+  padding: 0 0 5px 10px;
+  font-size: 1.2rem;
+}
+
+/* PARTNERS */
+.partners {
+  background-color: #414246;
+  padding: 30px;
+}
+
+.p-logo {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.p-logo img {
+  max-width: 15%;
+}
+
+/* COPYRIGHT */
+.copyrights {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+  gap: 5.5rem;
+}
+
+.copyrights img {
+  width: 35%;
+}
+
+.copyrights p {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
 }

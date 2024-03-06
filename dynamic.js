@@ -7,5 +7,3 @@ menuIcon.addEventListener("click", () => {
   overlay.classList.toggle("hide");
   navLinks.classList.toggle("hidden");
 });
-
-

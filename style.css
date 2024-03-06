@@ -331,11 +331,11 @@ header {
     top: 0;
     left: 0;
     height: 100vh;
-    width: 42vw;
+    width: 63vw;
     background-color: black;
     border-top-right-radius: 5rem;
     border-bottom-right-radius: 5rem;
-    padding: 8rem 5rem;
+    padding: 2%;
     box-shadow: 40px 0 16px #f75312;
   }
 
@@ -347,9 +347,8 @@ header {
     border: 2px solid #f75312;
     border-radius: 5rem;
     margin-top: 5rem;
-    width: 24rem;
     text-align: center;
-    max-width: 100%;
+    width: 22rem;
   }
 
   .bx {

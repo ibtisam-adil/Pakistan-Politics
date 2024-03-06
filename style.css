@@ -91,15 +91,16 @@ header {
 }
 
 .main-content h1 {
-  background: linear-gradient(
-    to right,
-    #f75312,
-    #e42001,
-    #a00,
-    #f91504,
-    #fd1f0a,
-    #770502
-  );
+  background:
+    linear-gradient(
+      to right,
+      #f75312,
+      #e42001,
+      #a00,
+      #f91504,
+      #fd1f0a,
+      #770502
+    );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 7rem;

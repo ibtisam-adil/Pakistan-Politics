@@ -30,7 +30,7 @@ header {
   display: flex;
   justify-content: flex-end;
   gap: 50px;
-  padding: 8px 6%;
+  padding: 8px 12%;
   font-size: 1.5rem;
 }
 
@@ -38,7 +38,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 2%;
+  padding: 5px 10%;
   box-shadow: 0 5px 5px 0 rgb(189, 184, 184);
   background-color: white;
 }
@@ -72,7 +72,7 @@ header {
 .hero {
   background-image: url(./images/img/background.png);
   width: 100%;
-  padding: 160px 30px 80px 30px;
+  padding: 160px 10% 80px 10%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -162,7 +162,7 @@ header {
 .all-boxes {
   display: grid;
   grid-gap: 5px;
-  padding: 50px 2% 40px;
+  padding: 50px 10% 40px;
 }
 
 .box {
@@ -201,8 +201,8 @@ header {
 .pak-rulers {
   display: flex;
   flex-direction: column;
-  padding: 0 2% 20px 2%;
-  gap: 25px;
+  padding: 0 10% 20px 10%;
+  align-items: center;
 }
 
 .r-heading {
@@ -219,7 +219,7 @@ header {
   display: grid;
   grid-column-gap: 10rem;
   grid-row-gap: 35px;
-  padding: 0 8% 4%;
+  padding: 0 0 4%;
 }
 
 .leader {
@@ -259,7 +259,7 @@ header {
 /* PARTNERS */
 .partners {
   background-color: #414246;
-  padding: 2%;
+  padding: 4% 10%;
 }
 
 .p-logo {
@@ -277,7 +277,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2%;
+  padding: 4% 10%;
   gap: 5.5rem;
 }
 
@@ -335,7 +335,7 @@ header {
     background-color: black;
     border-top-right-radius: 5rem;
     border-bottom-right-radius: 5rem;
-    padding: 2%;
+    padding: 10%;
     box-shadow: 40px 0 16px #f75312;
   }
 
@@ -374,6 +374,20 @@ header {
   .content-detail {
     max-width: 100%;
     text-align: center;
+  }
+
+  .more {
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 10px;
+    width: 24rem;
+  }
+
+  .more-p {
+    font-size: 2rem;
   }
 
   .hidden {

@@ -21,7 +21,7 @@ html {
 header {
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 10;
 }
 
 .top-nav {
@@ -30,7 +30,7 @@ header {
   display: flex;
   justify-content: flex-end;
   gap: 50px;
-  padding: 8px 12%;
+  padding: 8px 6%;
   font-size: 1.5rem;
 }
 
@@ -38,20 +38,34 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 10%;
+  padding: 5px 2%;
   box-shadow: 0 5px 5px 0 rgb(189, 184, 184);
   background-color: white;
 }
 
-.nav-links {
-  display: flex;
-  gap: 40px;
+#menu-icon {
+  display: none;
+}
+
+.nav-links a {
+  margin-left: 3rem;
   font-size: 1.5rem;
 }
 
 .main-nav img {
   width: 46px;
   height: 40px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.68);
+  backdrop-filter: blur(4px);
+  z-index: 1;
 }
 
 /* HERO SECTION */
@@ -121,7 +135,7 @@ header {
   justify-content: center;
   background-color: #272a31;
   background-image: url(./images/img/main-pattern.png);
-  padding: 40px;
+  padding-top: 40px;
   align-items: center;
   padding-bottom: 6%;
 }
@@ -148,8 +162,7 @@ header {
 .all-boxes {
   display: grid;
   grid-gap: 5px;
-  padding: 50px 12% 40px;
-  margin: 5px;
+  padding: 50px 2% 40px;
 }
 
 .box {
@@ -188,7 +201,7 @@ header {
 .pak-rulers {
   display: flex;
   flex-direction: column;
-  padding: 0 20px 20px;
+  padding: 0 2% 20px 2%;
   gap: 25px;
 }
 
@@ -246,7 +259,7 @@ header {
 /* PARTNERS */
 .partners {
   background-color: #414246;
-  padding: 30px;
+  padding: 2%;
 }
 
 .p-logo {
@@ -264,7 +277,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5rem;
+  padding: 2%;
   gap: 5.5rem;
 }
 
@@ -276,4 +289,121 @@ header {
   display: flex;
   flex-direction: column;
   font-size: 2rem;
+}
+
+/* HIDE */
+.hide {
+  display: none;
+}
+
+/* RESPONSIVE  */
+@media (max-width: 1200px) {
+  html {
+    font-size: 60%;
+  }
+
+  .main-content h1 {
+    font-size: 6.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 58%;
+  }
+
+  .main-content h1 {
+    font-size: 6rem;
+  }
+
+  .all-leaders {
+    grid-auto-columns: none;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 52%;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 63vw;
+    background-color: black;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    padding: 2%;
+    box-shadow: 40px 0 16px #f75312;
+  }
+
+  .nav-links a {
+    display: block;
+    font-size: 2rem;
+    color: #f75312;
+    padding: 2rem;
+    border: 2px solid #f75312;
+    border-radius: 5rem;
+    margin-top: 5rem;
+    text-align: center;
+    width: 22rem;
+  }
+
+  .bx {
+    font-size: 4.5rem;
+  }
+
+  .bx-x {
+    color: #f75312;
+  }
+
+  #menu-icon {
+    display: block;
+  }
+
+  .main-content h1 {
+    font-size: 3.8rem;
+  }
+
+  .main-content p {
+    font-size: 3rem;
+  }
+
+  .content-detail {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .all-boxes {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #31343b;
+    gap: 0;
+    padding: 5px 10px;
+  }
+
+  .overlay {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .all-leaders {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

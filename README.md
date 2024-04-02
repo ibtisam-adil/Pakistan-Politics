@@ -76,7 +76,7 @@ Step 1: if you don't have git installed on your machine you can download it from
 Once you have git installed on your machine you can clone your project by running the command below to clone your project to your local machine
 
 
-`git clone https://github.com/ibtisam-adil/Capstone.git`
+`git clone https://github.com/ibtisam-adil/Pakistan-Politics.git`
 
 Alternatively, you can download the zip file of your project by clicking on the `Code` button on the right side of your project page and clicking on `Download ZIP`
 
@@ -88,10 +88,10 @@ Step 2: Locate the folder where you cloned your project to and open the `index.h
 
 ## 👥 Author <a name="authors"></a>
 
-👤 **Muneeb UR Rehman**
+👤 **Ibtisam Adil**
 
 - GitHub: [@ibtisam-adil](https://github.com/ibtisam-adil)
-- Twitter: [@Hafizabd4](https://twitter.com/Hafizabd4)
+- Twitter: [@ibtisam__adil](https://twitter.com/Ibtisam__adil)
 - LinkedIn: (https://www.linkedin.com/in/ibtisamadildev)
 
 <!-- FUTURE FEATURES -->

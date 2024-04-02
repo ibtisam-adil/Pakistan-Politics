@@ -19,7 +19,7 @@ const generateRulerData = (rInfo) => {
 };
 
 const renderData = (startIndex, endIndex) => {
-  const rulers = rulerInfo.slice(startIndex, endIndex).map((rInfo) => generateRulerData(rInfo));
+  const rulers = rulerInfo.slice(startIndex, endIndex).map((r) => generateRulerData(r));
   allLeaders.innerHTML = rulers.join("");
 };
 

@@ -105,7 +105,6 @@ Step 2: Locate the folder where you cloned your project to and open the `index.h
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 📼 Project Walkthrough <a name="project-walk"></a>
 
-- [Project Walkthrough Link](https://www.loom.com/share/3361108217a04b6f87ee5e85a4bad2ea)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

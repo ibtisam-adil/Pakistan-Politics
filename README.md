@@ -92,7 +92,7 @@ Step 2: Locate the folder where you cloned your project to and open the `index.h
 
 - GitHub: [@ibtisam-adil](https://github.com/ibtisam-adil)
 - Twitter: [@ibtisam__adil](https://twitter.com/Ibtisam__adil)
-- LinkedIn: (https://www.linkedin.com/in/ibtisamadildev)
+- LinkedIn: [@ibtisamadil](https://www.linkedin.com/in/ibtisamadil)
 
 <!-- FUTURE FEATURES -->
 

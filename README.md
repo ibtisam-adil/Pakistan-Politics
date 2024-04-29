@@ -57,7 +57,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="Pakistan-Politics"></a>
- https://pakistan-politics.netlify.app/
+ [@Pakistan-Politics](https://pakistan-politics.netlify.app/)
 This is live version of my protfolio project.you can click on this link to watch live demo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
